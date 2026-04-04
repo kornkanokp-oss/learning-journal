@@ -1,5 +1,5 @@
-# learning-journal
-To be Penetration Tester
+# learning-journal from Zero to Pentration Tester by Claude Program
+Aim to prove that AI could be the good tutor without any budget except Time management and my passion on learning. :)
 # Week 1 - Completed TryHackMe Pre-Security: Offensive & Defensive Security
   ต้องรู้ว่า blue team คิดว่าอะไร แล้วจะป้องกันและโจมตีคู่ต่อสู้ยังไง ระบุและชี้ได้ว่าอะไรคือสิ่งแปลกปลอมที่จะมาโจมตีและหยุดการโจมตี
   ## Career Role
@@ -33,6 +33,7 @@ My Laptop
 ## Ping ICP
 
 ## DNS
+Thanks to https://www.youtube.com/watch?v=NiQTs9DbtW4&t=690s
 1. Mapping IP address with domain name.
    <img width="1408" height="1142" alt="image" src="https://github.com/user-attachments/assets/efc4510a-ad00-4043-900a-5238cdae8556" />
 
@@ -65,3 +66,15 @@ My Laptop
      - CNAME (Canonical Name Record)
         - Set up Alias name of domain for another domain. 
 
+## HTTPs 
+Thanks to https://www.youtube.com/watch?v=iYM2zFP3Zn0 and https://www.youtube.com/watch?v=tkfVQK6UxDI
+1. Overview
+   - Method
+     <img width="2578" height="1474" alt="image" src="https://github.com/user-attachments/assets/4aace868-399f-48c9-b957-cf5cf6b3eea2" />
+      - Get: retrieve data
+      - Post: Create data at the endpoint
+      - Put: Updated data
+      - Delete: Delete data
+   - HTTP Header
+   - HTTP Status
+     <img width="2584" height="1266" alt="image" src="https://github.com/user-attachments/assets/22830db1-71e2-439e-bfc8-f5e19873f3a5" />
