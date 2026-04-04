@@ -32,3 +32,36 @@ My Laptop
 
 ## Ping ICP
 
+## DNS
+1. Mapping IP address with domain name.
+   <img width="1408" height="1142" alt="image" src="https://github.com/user-attachments/assets/efc4510a-ad00-4043-900a-5238cdae8556" />
+
+2. Enhanace Security at DNS when it has enable below featue becuase it has the Encryption.
+   - DOH = DNS over HTTPs
+   - DOT = DNS over Transport layer
+   - DNSSEC
+   - DNSCrypt
+3.  Case Study
+   You buy domain "www.hopdiarysound.com" with company A. Normally company A will default and give DNS server for free. However you can choose. Simplily said that your music company use the specific feature i.e. AWS Route 53, Cloudflare, Google Cloud DNS which under companyB.
+    5.1. You should know that company B generate the public IP Address to you. In Case company B also be the Web Hosting or Cloud Hosting.
+    5.2. In the setting of Company A, you should change the **NS Record** and point to Company B.
+    5.3. Company A = Domain register. Company B = DNS Hosting.
+4. DNS Recorder Definition ( From Case Study)
+   - Why we need to know DNS Recorder
+   - How many DNS Recorder
+     - A Record
+       - www.hopdiarysound.com map with IP xx.xx.xx.xx which keep with Company B who belong to NS Server (NS)
+       - nslookup hopdiarysound.com
+     - NS Record
+        - nslookup -type=ns google.com
+        - Identify which server keep DNS
+        - This command will send Company A which acts as operator and then Company B answer.
+     - AAAA Record
+        - It is like A Record but for iPv6
+     - MX Record
+        - Mailbox
+     - PTR Record
+        - Reverse DNS Lookup of A Record
+     - CNAME (Canonical Name Record)
+        - Set up Alias name of domain for another domain. 
+
